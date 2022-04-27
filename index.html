@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Nathan's Personal Quark in CSS</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="top-container"> <!-- divides the content, useless without CSS, v osnovi nima niti višine, height-->
+            <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
+            <h1>I am Nathan.</h1> <!-- nekateri elementi so block elementi, kar pomeni,da zasedejo celotni širino, včasih si lahko uporabimo z inline  (inline display element funkcijo <span>-->
+            <h2 class="title-text">a Front-end developer.</h2> <!-- paragrafu lahko spremenimo display property iz block v inline. display:inline;-->
+            <!-- <span>Hello--> <!-- span ima inline display property, kar lahko spremenio v block, display: block;-->
+            <!-- ampak za vse lahko uporabiš funkcijo display: inline-block;-->
+            <!-- 4. opcija je da uporabiš display: none; kar pomeni, da bo element odstranjen, ni pa to enako kot visibility: hidden, ker takrat bo samo skrit-->
+            <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
+            <img src="images/mountain.png" alt="mountain-image">
+        </div>
+        <div class="middle-container">
+            <div class="profile">
+              <img class="profile-picture" src="images/profile-square.jpg" alt="profile-photo">
+              <h2>Greetings and Salutations.</h2>
+              <p class="title-paragraph-text">A front-end developer in developing development limbo. I am also a big science fiction fan.<br>Live long and prosper.🖖</p>
+            </div>
+            <hr>
+            <div class="skills">
+              <h2 class="skills-title">My Skills.</h2>
+              <div class="skill-row top-skill">
+                <img class="skill-img" src="images/web-development.png" alt="computer-image">
+                <a><h3>HTML CSS Javascript</h3></a>
+                <p class="paragraph-text">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat. Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+              </div>
+              <div class="skill-row">
+                <img class="board-img" src="images/bodyboard.png" alt="boadyboard-image">
+                <a><h3>Bodyboarding</h3></a>
+                <p class="paragraph-text">Bodyboarding is my life and it should be yours, now go and find a wave. Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat. Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+              </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+              <h2 class="get-in-touch">Get In Touch</h2>
+              <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+              <p class="bottom-paragraph-text">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+              <a class="btn" href="mailto:klasinc.nathan@gmail.com">CONTACT ME</a>
+            </div>
+          </div>
+          
+          
+          <div class="bottom-container">
+            <div class="footer-link-div">
+              <a class="footer-link" href="https://www.linkedin.com/in/nathanklasinc/">LinkedIn</a>
+              <a class="footer-link footer-link-twitter" href="https://twitter.com/Nathan80003937">Twitter</a>
+              <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+            </div>
+          <p class="footer-copyright">© 2022 Nathan Klasinc @ My Quark in Space and Time.</p>
+          </div>       
+    </body>

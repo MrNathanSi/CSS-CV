@@ -1,0 +1,206 @@
+body{
+    margin: 0px;
+    text-align: center; /* to deluje samo (v parent elementu) na inline-block elementih in na full width block elementih npr h1 in p*, če spremeniš width na h1, ga moraš centrirat drugač, npr z margin: auto;* glej spodaj pri h1*/
+    font-family: "Merriweather", serif; /* najprej ime fonta in potem za vejico, font family sans-serif*/
+}
+
+
+.top-container   {
+    background-color: #95D1CC;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container   {
+
+}
+
+.bottom-container   {
+
+}
+
+.profile    {
+    padding-bottom: 70px;
+
+}
+
+.profile-picture    {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.title-paragraph-text {
+    line-height: 2;
+    padding-left: 750px;
+    padding-right: 750px;
+}
+
+.title-text {
+    color: #005555;
+}
+
+.skills-title   {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+h1  {
+    font-size: 5.62rem; /* če želiš dinamične fonte uporabiš procente ali (r)em, 16px = 100% = 1em, če spremeniš velikost (dinamičnega) fonta v bodiju, se bo h1 velikost prištela - v CSS 3 lahko uporabiš rem (root em), kar pomeni, da ignorira parent*/
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    color: #005555;
+    line-height: 2;
+    /* width: 10%;
+    margin: 0 auto 0 auto; - če nimaš ful width elementa*/
+}
+
+h2  {
+    font-family: "Monteserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3  {
+    font-family: "Monteserrat", sans-serif;
+    color: #11999E;
+}
+
+.top-cloud  {
+    position:absolute;
+    right: 550px;
+    top: 50px;
+
+}
+.bottom-cloud   {
+    position:absolute;
+    left: 550px;
+    bottom: 300px;
+}
+
+.skill-row  {
+    width: 50%;
+    position: relative;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.top-skill  {
+    padding-bottom: 50px;
+}
+
+.skill-img {
+    border-radius: 50%;
+    width: 25%;
+    float:left;
+    margin-right:30px;
+}
+
+.board-img {
+    border-radius: 50%;
+    width: 25%;
+    float:right;
+    margin-left: 30px;
+}
+/*
+.footer-link    {
+    color:#11999E;
+}
+*/
+
+.bottom-container   {
+    color:#11999E;
+    background-color: #66BFBF;
+    height:170px;
+}
+
+.get-in-touch   {
+    padding-top: 50px;;
+}
+
+.bottom-paragraph-text {
+    line-height: 2;
+    padding: 40px 750px 40px 750px;
+
+}
+
+hr  {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: grey;
+    width: 4%;
+}
+
+.contact-me {
+    padding-bottom: 70px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .footer-link-div  {
+      padding-top: 50px;
+      padding-bottom: 40px;
+      font-size: 0.9rem;
+      font-family: "Monteserrat", sans-serif;
+      font-weight: bold;
+  }
+  .footer-link  {
+      color:#11999E;
+      text-decoration: none;
+  }
+
+  /* alternativa zgornjo rešitvi za text decoration, da dodaš pseudolink
+
+  a {
+      text-decoration:none;
+  }
+
+  in
+
+  a:hover   {
+      color: #EAF6F;
+  }
+
+  */
+
+  .footer-link-twitter  {
+      padding-left: 50px;
+      padding-right: 50px;
+      font-display: none;
+  }
+
+  .footer-copyright {
+      color: #eaf6f6;
+      font-size: 0.7rem;
+      font-weight: bold;
+      font-family: "Monteserrat", sans-serif;
+      
+  }
